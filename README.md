@@ -1,6 +1,6 @@
 ## 🎬 Genre-Aware Hybrid Movie Recommendation System
 
-A production-style movie recommendation system built using Collaborative Filtering + Genre-Aware Content Filtering + IMDB-style confidence weighting, designed to deliver relevant, personalized, and reliable movie recommendations.
+A production-style movie recommendation system built using ** Collaborative Filtering + Genre-Aware Content Filtering + IMDB-style ** confidence weighting, designed to deliver relevant, personalized, and reliable movie recommendations.
 
 This project addresses real-world challenges such as cold start, data sparsity, and genre mismatch, making it suitable for internship and entry-level data science roles.
 
@@ -8,21 +8,21 @@ This project addresses real-world challenges such as cold start, data sparsity, 
 
 Traditional recommendation systems often suffer from:
 
-recommending popular but irrelevant movies
+``recommending popular but irrelevant movies
 
-failing for new or cold users
+``failing for new or cold users
 
-trusting movies with few ratings
+``trusting movies with few ratings
 
 This project solves those problems by combining:
 
-User behavior similarity (Collaborative Filtering)
+``User behavior similarity (Collaborative Filtering)
 
-Genre similarity (Content-based filtering using TF-IDF)
+``Genre similarity (Content-based filtering using TF-IDF)
 
-Rating reliability (IMDB weighted rating formula)
+``Rating reliability (IMDB weighted rating formula)
 
-The result is a hybrid recommender system similar to those used by Netflix and Amazon.
+The result is a hybrid recommender system similar to those used by ** Netflix and Amazon.**
 
 ## 🧠 Recommendation Strategy
 
@@ -34,31 +34,31 @@ The final recommendation score is computed as:
 
 Where:
 
-Collaborative Similarity captures user taste
+``Collaborative Similarity captures user taste.
 
-Genre Similarity ensures contextual relevance
+``Genre Similarity ensures contextual relevance.
 
-IMDB Weighted Rating ensures quality & trust
+``IMDB Weighted Rating ensures quality & trust.
 
-α, β, γ are tunable weights
+``α, β, γ are tunable weights.
 
 ## ✨ Key Features
 
-✅ Multi-movie cold user recommendations
+``✅ Multi-movie cold user recommendations
 
-✅ Genre-aware filtering to avoid mismatched suggestions
+``✅ Genre-aware filtering to avoid mismatched suggestions
 
-✅ IMDB-style Bayesian confidence scoring
+``✅ IMDB-style Bayesian confidence scoring
 
-✅ Sparse matrix optimization for scalability
+``✅ Sparse matrix optimization for scalability
 
-✅ Robust fallbacks for edge cases
+``✅ Robust fallbacks for edge cases
 
-✅ Logging for traceability and debugging
+``✅ Logging for traceability and debugging
 
 ## 🧰 Technologies Used
 
-Python
+`` ** Python **
 
 Pandas & NumPy
 
