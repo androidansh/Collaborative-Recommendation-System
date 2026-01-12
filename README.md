@@ -1,6 +1,6 @@
 ## 🎬 Genre-Aware Hybrid Movie Recommendation System
 
-A production-style movie recommendation system built using ** Collaborative Filtering + Genre-Aware Content Filtering + IMDB-style ** confidence weighting, designed to deliver relevant, personalized, and reliable movie recommendations.
+A production-style movie recommendation system built using **Collaborative Filtering + Genre-Aware Content Filtering + IMDB-style** confidence weighting, designed to deliver relevant, personalized, and reliable movie recommendations.
 
 This project addresses real-world challenges such as cold start, data sparsity, and genre mismatch, making it suitable for internship and entry-level data science roles.
 
@@ -40,55 +40,43 @@ Where:
 
 - IMDB Weighted Rating ensures quality & trust.
 
-- α, β, γ are tunable weights.
+- **α, β, γ** are tunable weights.
 
 ## ✨ Key Features
 
-``✅ Multi-movie cold user recommendations
+- ✅ Multi-movie cold user recommendations
 
-``✅ Genre-aware filtering to avoid mismatched suggestions
+- ✅ Genre-aware filtering to avoid mismatched suggestions
 
-``✅ IMDB-style Bayesian confidence scoring
+- ✅ IMDB-style Bayesian confidence scoring
 
-``✅ Sparse matrix optimization for scalability
+- ✅ Sparse matrix optimization for scalability
 
-``✅ Robust fallbacks for edge cases
+- ✅ Robust fallbacks for edge cases
 
-``✅ Logging for traceability and debugging
+- ✅ Logging for traceability and debugging
 
 ## 🧰 Technologies Used
 
-- ** Python **
+- **Python**
 
-- ** Pandas & NumPy **
+- **Pandas & NumPy**
 
-Scikit-Learn
+- **Scikit-Learn**
 
-SciPy (CSR Sparse Matrix)
+- **SciPy (CSR Sparse Matrix)**
 
-TF-IDF Vectorization
+- **TF-IDF Vectorization**
 
-Cosine Similarity
-
-Logging
+- **Cosine Similarity**
 
 ## 📂 Dataset
 
-MovieLens Dataset
+- **MovieLens Dataset**
 
-Columns include:
+- Columns include: ***userId , movieId , rating , title , genres***
 
-userId
-
-movieId
-
-rating
-
-title
-
-genres
-
-Genres are preprocessed into a clean, TF-IDF-ready format.
+- Genres are preprocessed into a clean, TF-IDF-ready format.
 
 ## 🏗️ System Architecture
 ### 1️⃣ Collaborative Filtering
@@ -109,23 +97,23 @@ Ensures genre-consistent recommendations
 
 ### 3️⃣ IMDB Weighted Rating
 
-Used to avoid unreliable movies with few ratings:
+**Used to avoid unreliable movies with few ratings:**
 
-Weighted Rating = (v / (v + m)) × R + (m / (v + m)) × C
-
+***Weighted Rating = (v / (v + m)) × R + (m / (v + m)) × C***
 
 Where:
 
-R = average rating of the movie
+- **R = average rating of the movie**
 
-v = number of ratings
+- **v = number of ratings**
 
-C = global average rating
+- **C = global average rating**
 
-m = minimum votes threshold
+- **m = minimum votes threshold**
 
 ### 🧪 Example Usage
 watched_movies = [109487, 79132, 134130]
+
 recommendations = recommend_genre_aware_hybrid(watched_movies)
 
 print(recommendations)
@@ -138,15 +126,15 @@ This returns:
 
 🎯 What Makes This Project Stand Out
 
-🔥 Goes beyond basic collaborative filtering
+- **🔥 Goes beyond basic collaborative filtering**
 
-🔥 Handles cold-start intelligently
+- **🔥 Handles cold-start intelligently**
 
-🔥 Uses industry-inspired ranking logic
+- **🔥 Uses industry-inspired ranking logic**
 
-🔥 Designed with scalability in mind
+- **🔥 Designed with scalability in mind**
 
-🔥 Resume-ready real-world system
+- **🔥 Resume-ready real-world system**
 
 ## 👤 Author
 
