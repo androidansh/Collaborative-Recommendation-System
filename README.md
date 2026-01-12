@@ -1,10 +1,10 @@
-🎬 Genre-Aware Hybrid Movie Recommendation System
+## 🎬 Genre-Aware Hybrid Movie Recommendation System
 
 A production-style movie recommendation system built using Collaborative Filtering + Genre-Aware Content Filtering + IMDB-style confidence weighting, designed to deliver relevant, personalized, and reliable movie recommendations.
 
 This project addresses real-world challenges such as cold start, data sparsity, and genre mismatch, making it suitable for internship and entry-level data science roles.
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 Traditional recommendation systems often suffer from:
 
@@ -24,14 +24,13 @@ Rating reliability (IMDB weighted rating formula)
 
 The result is a hybrid recommender system similar to those used by Netflix and Amazon.
 
-🧠 Recommendation Strategy
+## 🧠 Recommendation Strategy
 
 The final recommendation score is computed as:
 
 Final Score = α × Collaborative Similarity
             + β × Genre Similarity
             + γ × IMDB Weighted Rating
-
 
 Where:
 
@@ -43,7 +42,7 @@ IMDB Weighted Rating ensures quality & trust
 
 α, β, γ are tunable weights
 
-✨ Key Features
+## ✨ Key Features
 
 ✅ Multi-movie cold user recommendations
 
@@ -57,7 +56,7 @@ IMDB Weighted Rating ensures quality & trust
 
 ✅ Logging for traceability and debugging
 
-🧰 Technologies Used
+## 🧰 Technologies Used
 
 Python
 
@@ -73,7 +72,7 @@ Cosine Similarity
 
 Logging
 
-📂 Dataset
+## 📂 Dataset
 
 MovieLens Dataset
 
@@ -91,8 +90,8 @@ genres
 
 Genres are preprocessed into a clean, TF-IDF-ready format.
 
-🏗️ System Architecture
-1️⃣ Collaborative Filtering
+## 🏗️ System Architecture
+### 1️⃣ Collaborative Filtering
 
 User-movie rating matrix (sparse)
 
@@ -100,7 +99,7 @@ Cosine similarity between movies
 
 Captures user behavior patterns
 
-2️⃣ Genre-Based Similarity
+### 2️⃣ Genre-Based Similarity
 
 TF-IDF vectorization of movie genres
 
@@ -108,7 +107,7 @@ Cosine similarity between genre vectors
 
 Ensures genre-consistent recommendations
 
-3️⃣ IMDB Weighted Rating
+### 3️⃣ IMDB Weighted Rating
 
 Used to avoid unreliable movies with few ratings:
 
@@ -125,20 +124,17 @@ C = global average rating
 
 m = minimum votes threshold
 
-🧪 Example Usage
+### 🧪 Example Usage
 watched_movies = [109487, 79132, 134130]
 recommendations = recommend_genre_aware_hybrid(watched_movies)
 
 print(recommendations)
 
-
 This returns:
 
-Movie Title
-
-Weighted Rating
-
-Final Hybrid Score
+#### Movie Title
+#### Weighted Rating
+#### Final Hybrid Score
 
 🎯 What Makes This Project Stand Out
 
@@ -152,24 +148,8 @@ Final Hybrid Score
 
 🔥 Resume-ready real-world system
 
-📈 Future Enhancements
+## 👤 Author
 
-ALS / Matrix Factorization
-
-User profile embeddings
-
-Recency & time-decay weighting
-
-Genre-specific recommendation views
-
-Evaluation metrics (Recall@K, MAP@K)
-
-Streamlit web application deployment
-
-👤 Author
-
-Anshuman Gupta
-Aspiring Data Scientist
-Passionate about Machine Learning & Recommendation Systems
-
-📫 Open to internships and entry-level opportunities
+### Anshuman Gupta
+### Aspiring Data Scientist
+### Passionate about Machine Learning & Recommendation Systems
