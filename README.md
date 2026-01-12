@@ -28,9 +28,7 @@ The result is a hybrid recommender system similar to those used by ** Netflix an
 
 The final recommendation score is computed as:
 
-### Final Score = α × Collaborative Similarity
-###           + β × Genre Similarity
-###           + γ × IMDB Weighted Rating
+### Final Score = α × Collaborative Similarity + β × Genre Similarity + γ × IMDB Weighted Rating
 
 Where:
 
