@@ -8,19 +8,19 @@ This project addresses real-world challenges such as cold start, data sparsity, 
 
 Traditional recommendation systems often suffer from:
 
-`` recommending popular but irrelevant movies
+- recommending popular but irrelevant movies
 
-`` failing for new or cold users
+- failing for new or cold users
 
-`` trusting movies with few ratings
+- trusting movies with few ratings
 
 This project solves those problems by combining:
 
-`` User behavior similarity (Collaborative Filtering)
+- User behavior similarity (Collaborative Filtering)
 
-`` Genre similarity (Content-based filtering using TF-IDF)
+- Genre similarity (Content-based filtering using TF-IDF)
 
-`` Rating reliability (IMDB weighted rating formula)
+- Rating reliability (IMDB weighted rating formula)
 
 The result is a hybrid recommender system similar to those used by ** Netflix and Amazon.**
 
@@ -34,13 +34,13 @@ The final recommendation score is computed as:
 
 Where:
 
-``Collaborative Similarity captures user taste.
+- Collaborative Similarity captures user taste.
 
-``Genre Similarity ensures contextual relevance.
+- Genre Similarity ensures contextual relevance.
 
-``IMDB Weighted Rating ensures quality & trust.
+- IMDB Weighted Rating ensures quality & trust.
 
-``α, β, γ are tunable weights.
+- α, β, γ are tunable weights.
 
 ## ✨ Key Features
 
@@ -58,9 +58,9 @@ Where:
 
 ## 🧰 Technologies Used
 
-`` ** Python **
+- ** Python **
 
-Pandas & NumPy
+- ** Pandas & NumPy **
 
 Scikit-Learn
 
