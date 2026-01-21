@@ -6,7 +6,7 @@ This project addresses real-world challenges such as cold start, data sparsity, 
 
 ## 🚀 Project Overview
 
-Traditional recommendation systems often suffer from:
+**Traditional recommendation systems often suffer from:**
 
 - recommending popular but irrelevant movies
 
@@ -14,7 +14,7 @@ Traditional recommendation systems often suffer from:
 
 - trusting movies with few ratings
 
-This project solves those problems by combining:
+**This project solves those problems by combining:**
 
 - User behavior similarity (Collaborative Filtering)
 
@@ -79,19 +79,19 @@ Where:
 ## 🏗️ System Architecture
 ### 1️⃣ Collaborative Filtering
 
-User-movie rating matrix (sparse)
+- User-movie rating matrix (sparse)
 
-Cosine similarity between movies
+- Cosine similarity between movies
 
-Captures user behavior patterns
+- Captures user behavior patterns
 
 ### 2️⃣ Genre-Based Similarity
 
-TF-IDF vectorization of movie genres
+- TF-IDF vectorization of movie genres
 
-Cosine similarity between genre vectors
+- Cosine similarity between genre vectors
 
-Ensures genre-consistent recommendations
+- Ensures genre-consistent recommendations
 
 ### 3️⃣ IMDB Weighted Rating
 
@@ -118,11 +118,9 @@ print(recommendations)
 
 This returns:
 
-#### Movie Title
-#### Weighted Rating
-#### Final Hybrid Score
+#### Movie Title | #### Weighted Rating | #### Final Hybrid Score
 
-🎯 What Makes This Project Stand Out
+### 🎯 What Makes This Project Stand Out
 
 - **🔥 Goes beyond basic collaborative filtering**
 
@@ -134,8 +132,10 @@ This returns:
 
 - **🔥 Resume-ready real-world system**
 
+
 ## 👤 Author
 
 ### Anshuman Gupta
+### Data Source: https://drive.google.com/file/d/1B-bY-g5OlDw1w6UAsEVgf8dAJcIthajw/view?usp=sharing
 ### Aspiring Data Scientist
 ### Passionate about Machine Learning & Recommendation Systems
